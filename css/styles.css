@@ -1,0 +1,86 @@
+body{
+	background-color:  rgba(103, 75, 175,1);
+	background-image: url('../images/bg-mobile.svg'); 
+	font-family: 'Open Sans', sans-serif;
+	color:#fff;
+}
+* {
+  box-sizing: border-box;
+}
+h1 {
+	font-family: 'Poppins', sans-serif;
+	font-size: 5vw;
+}
+.logo{
+	max-width: 100%;
+	margin-left: 3rem;
+}
+
+.box1{
+	flex-basis: 50%;
+	margin: 2rem;
+	text-align: left;
+}
+.box2{
+	flex-basis: 50%;
+	margin: 2rem;
+	text-align: center;
+}
+
+.btn{
+	font-weight: bolder;
+	color: rgba(103,75,175,0.9);
+	padding: 10px 50px;
+	background-color: #fff;
+	border-radius: 24px;
+	border: 1px groove grey;
+	border-right:  1px groove grey;
+	border-bottom: 1px groove grey;
+	box-shadow: 0 4px 12px 0 rgba(0,0,0,0.2), 0 8px 16px 0 rgba(0,0,0,0.7);
+}
+.butt a{
+	text-decoration: none;
+}
+.content{
+	margin-bottom: 2rem;
+}
+.social-media{
+	margin-top: 5rem;
+	margin-right: 3rem;
+	display: flex;
+	justify-content: center;
+	}
+
+.social-media img{
+	height:50px;
+	width: 50px;
+}
+.attribution { 
+	font-size: 11px; text-align: center; 
+}
+.attribution a 
+{ 
+	color: hsl(228, 45%, 44%); 
+}
+@media only screen and (min-width: 600px){
+	.flex-container{
+		margin: 1rem;
+		display: flex;
+		
+		justify-content: space-between;
+		justify-content: space-around;
+		text-align: left;
+}
+.social-media{
+	justify-content: flex-end;
+	}
+	.box2{
+		text-align: left; 
+	}
+	body{
+	background-image: url('../images/bg-desktop.svg'); 	
+	}
+	h1 {
+	font-size: 2.5vw;
+}
+}
